@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Yantramanav&display=swap');
+
+#prompt{
+    z-index : 30;
+    position : fixed;
+    top  : 0;
+    left : 0;
+    background-color : #000000b4;
+    height : 100%;
+    width : 100%;
+    display : none;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#promptbox{
+    height: fit-content;
+    width: fit-content;
+    padding : 20px;
+    background-color: #eeeeee;
+    border : none;
+    border-radius: 15px;
+}
+#sprompt{
+    z-index : 30;
+    position : fixed;
+    top  : 0;
+    left : 0;
+    background-color : #000000b4;
+    height : 100%;
+    width : 100%;
+    display : none;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#spromptbox{
+    height: fit-content;
+    width: fit-content;
+    padding : 20px;
+    background-color: #eeeeee;
+    border : none;
+    border-radius: 15px;
+}
+#promptmsg{    
+    margin-left : 10px;
+    margin-right : 10px;
+    margin-top : 20px;
+    margin-bottom : 30px;
+}
+
+.promptbutton{
+    width : 100px;
+    margin-left : 10px;
+    margin-right : 10px;
+    margin-top : 30px;
+    margin-bottom : 20px;
+}
+
+#captchawarning{
+    display : none;
+    color : #b40808;
+    padding-top : 10px;
+    font-family: 'Yantramanav', sans-serif;
+}
+
+#cross{
+    color : #636363;
+    width : 100%;
+    text-align : right;
+    font-size: 20px;
+}
+
+#cross:hover{
+    color : #313131;
+}
+
+#scross{
+    color : #636363;
+    width : 100%;
+    text-align : right;
+    font-size: 20px;
+}
+
+#scross:hover{
+    color : #313131;
+}
+
+#spromptmsg1{
+    color : #19a107;
+    padding : 10px;    
+}
+#spromptmsg2{
+    color : #091f33;
+    padding : 10px;
+}

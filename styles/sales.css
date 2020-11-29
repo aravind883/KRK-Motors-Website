@@ -1,0 +1,365 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Signika:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;1,400;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap');
+
+body {
+    background-color: gradient(red, blue);
+}
+
+.jumbotron {
+    margin: 0;
+}
+
+.background {
+    width: 100%;
+    height: 300px;
+}
+
+
+@media (max-width: 768px) { 
+    #stick{
+        position: -webkit-sticky !important; /* Safari */
+        position: sticky !important;
+        top: 50;
+        z-index : 20;    
+        background-color: #eeeeee;
+        margin: 0;
+        padding-top : 30px;
+        padding-bottom : 10px;
+    }
+}
+
+@media (min-width: 768px) { 
+    #stick{
+        position : -webkit-relative !important;
+        position : relative !important;
+    }
+ }
+
+.bike {
+    border-radius: 15px;
+    background-color: #ffffff;
+    margin-bottom: 40px;
+    margin-right : 5px;
+    margin-left  : 5px;
+    padding: 0;
+    transition: 200ms;
+    text-decoration: none;
+    white-space: normal;
+    box-shadow: 0 0 10px #d8d8d893;
+}
+
+.bike-img {
+    display: flex;
+    margin: 0;
+    padding: 20px;
+    border-radius: 15px;
+    transition: 200ms;
+    justify-content: center;
+    align-items: center;
+}
+
+.bike:nth-child(odd) .bike-img {
+    background-color: #dfa4a441;
+}
+
+.bike:nth-child(even) .bike-img {
+    background-color: #a8bfd43a;
+}
+
+.bike-image {
+    height: 90px;
+}
+
+.bike:hover .bike-img {
+    background-color: #bdbdbdaf;
+}
+
+.bike:hover {
+    box-shadow: 0 0 10px #75747493;
+    text-decoration: none;
+}
+
+.bike-content {
+    display: inline-block;
+    padding: 20px;
+    width: fit-content;
+    margin: 0;
+    text-decoration: none;
+}
+
+.bike-content:hover {
+    text-decoration: none;
+}
+
+.bike-title {
+    font-family: 'Kanit', sans-serif;
+    color: #272727;
+}
+
+.bike-text {
+    font-family: 'Signika', sans-serif;
+    color: #747474;
+    display: block;
+    line-height: 30px;
+}
+
+.colon {
+    position: absolute;
+    left: 90px;
+}
+
+.data {
+    position: absolute;
+    left: 110px;
+}
+
+.bike-reviews {
+    padding: 20px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    white-space: nowrap;
+    line-break: normal;
+}
+
+.rating {
+    margin: 5px;
+    padding: 5px;
+    border-radius: 10px;
+    display: inline-block;
+    text-decoration: none;
+    width: 100px;
+    text-align: center;
+}
+
+.rating:hover {
+    text-decoration: none;
+}
+
+.ratingdata {
+    display: block;
+    text-align: center;
+    padding: 5px 0;
+}
+
+h6 .fa {
+    font-size: 15px;
+    color: #f09712;
+}
+
+h6 .fa:hover {
+    color: #f09712;
+}
+
+.rating h6 {
+    display: inline;
+}
+
+.rstar {
+    display: inline;
+}
+
+.reviewtitle {
+    font-family: 'Kanit', sans-serif;
+    font-weight: 500;
+    color: #111111;
+}
+
+.datanumber {
+    font-family: 'Kanit', sans-serif;
+    color: #065a69;
+}
+
+.vl {
+    border-left: 2px solid #e4e4e4;
+    height: 50px;
+    margin-left: -1px;
+}
+
+#columnmass{
+    background-color: black;
+}
+
+#menu{
+    padding : 0;
+    height: fit-content;
+    
+    position: -webkit-sticky !important; /* Safari */
+    position: sticky !important;
+    top: 40;
+    bottom : 800;
+    margin-bottom : 20px;
+}
+
+.mcard{
+    background-color: #ffffff88;
+    height : 200px;
+    display : flex;
+    justify-content: center;
+    align-items: center;
+    border : none;
+    border-radius: 10px;
+    
+    box-shadow: 0 0 10px #d4d4d47a;
+    transition: 200ms;
+
+    cursor : hand;
+}
+.mcard:hover{
+    background-color: #ffffff;
+    box-shadow: 0 0 10px #919191;
+    text-decoration : none;
+}
+
+.mcardsm{
+    display : flex;
+    justify-content: center;
+    align-items: center;
+    margin : 10px;
+    width : 100%;
+}
+
+.micon{
+    display : block;
+    word-break: break-all;
+    text-align: center;
+    font-size : 40px;
+}
+.mtext{
+    display : block;
+    word-break: normal;
+    text-align: center;
+    font-family: 'Hammersmith One', sans-serif;
+    font-size : 20px;
+    padding : 10px;
+}
+
+.miconsm{
+    display : inline;
+    word-break: break-all;
+    text-align: center;
+    font-size : 20px;
+    line-height: 40px;
+}
+.mtextsm{
+    display : inline;
+    word-break: normal;
+    text-align: center;
+    font-family: 'Hammersmith One', sans-serif;
+    font-size : 20px;
+    padding : 5px;
+    line-height: 40px;
+}
+.mcardsm:hover{
+    border-radius: 10px;
+    background-color: #ffffff;
+}
+#menuicon{
+    z-index : 30;
+    position : absolute;
+    left : 0;
+    top : 15;
+    font-size: 23px;
+}
+
+.mcard:nth-child(4n+1){
+    color : #7e1919;
+}
+.mcard:nth-child(4n+2){
+    color : #0752a8;
+}
+.mcard:nth-child(4n+3){
+    color : #045f18;
+}
+.mcard:nth-child(4n+4){
+    color : #d8a20d;
+}
+.mcardsm:nth-child(4n+1){
+    color : #7e1919;
+}
+.mcardsm:nth-child(4n+2){
+    color : #0752a8;
+}
+.mcardsm:nth-child(4n+3){
+    color : #045f18;
+}
+.mcardsm:nth-child(4n+4){
+    color : #d8a20d;
+}
+.mcardsm:hover:nth-child(4n+1){
+    color : #7e1919;
+}
+.mcardsm:hover:nth-child(4n+2){
+    color : #0752a8;
+}
+.mcardsm:hover:nth-child(4n+3){
+    color : #045f18;
+}
+.mcardsm:hover:nth-child(4n+4){
+    color : #d8a20d;
+}
+
+
+/*Slider menu*/
+
+.sidenav {
+    display : none;
+    height: 100vh; /* 100% Full-height */
+    width: 100vw; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 90; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: #eeeeee; /* Black*/
+    padding-top: 60px; /* Place content 60px from the top */
+    padding-bottom : 60px;
+    overflow-x: hidden;
+}
+  
+  /* The navigation menu links */
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  /* When you mouse over the navigation links, change their color */
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  /* Position and style the close button (top right corner) */
+  .sidenav .closebtn {
+    position: absolute;
+    top: 10;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+    color : #812b08;
+    cursor : hand;
+  }
+  
+  /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+    transition: margin-left .5s;
+    padding: 20px;
+    position: -webkit-sticky !important; /* Safari */
+    position: sticky !important;
+    top: 100;
+}
+  
+  /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+
+.headinghrline {
+    margin-bottom : 10px;
+}

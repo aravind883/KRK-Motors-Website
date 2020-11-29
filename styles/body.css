@@ -1,0 +1,62 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+
+body{
+    background-color: #eeeeee;
+    min-width: 340px;
+}
+
+
+.subtopic{
+    margin : 20px;
+}
+
+.heading{
+    text-align: center;
+    padding: 20px 0px;
+    padding-top : 0;
+    color : #8b1606;
+    font-size: 40px;
+    letter-spacing: 1.5px;
+    
+    font-family: 'Staatliches', cursive;
+    cursor: default;
+
+    
+    -webkit-filter: drop-shadow(5px 5px 5px #eeeeee8e);
+    filter: drop-shadow(5px 5px 5px #eeeeee8e);
+}
+.heading:hover{
+    font-size: 44px;
+    animation-name: plussize;
+    animation-duration : .5s;    
+}
+
+@keyframes plussize{
+    from{font-size: 40px;}
+    to{font-size: 44px;}
+}
+
+.headinghrline{
+    width : 200px;
+    padding: 0;
+    margin-left : auto;
+    margin-right : auto;
+    margin-top : -20px;
+    margin-bottom : 40px;
+    
+    height: 2px;
+    background-color:  #b1b1b1;
+}
+
+.heading:hover + .headinghrline{
+    width : 230px;
+    animation-name: headingsize;
+    animation-duration : .5s;    
+}
+
+@keyframes headingsize{
+    from{width : 200px;}
+    to{width : 230px;}
+}
+

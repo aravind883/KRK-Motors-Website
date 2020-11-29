@@ -1,0 +1,1007 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+
+body{
+    background-color : #021f30;
+}
+
+#backbutton{
+    font-size: 35px;
+    text-decoration: none;
+    color : #03adad;
+    position : absolute;
+    left : 50px;
+    top : 25px;
+    -webkit-transition:200ms;
+    -o-transition:200ms;
+    transition:200ms;
+}
+#backbutton:hover{
+    text-decoration: none;
+    color : #dfdfdf;
+}
+
+
+.bikebox{
+    background-image : url("../images/BikeBackground2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size : cover;
+    height : 500px;
+    padding : 0;
+}
+.bikebox2{
+    background-image : url("../images/BikeBackground1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size : cover;
+    height : 500px;
+    padding : 0;
+}
+.biketint{
+    position : relative;
+    height : 500px;
+    width : 100%;
+    background-color: #ffffff00;
+    -webkit-transition: background-color 300ms;
+    -o-transition: background-color 300ms;
+    transition: background-color 300ms;
+}
+.bikebox:hover .biketint{
+    background-color: #ffffffd3;
+}
+.bikebox2:hover .biketint{
+    background-color: #ffffffd3;
+}
+
+#bike{
+    max-height : 300px;
+    max-width : 80%;
+    position : absolute;
+    bottom : 130px;
+    left : 0;
+    right : 0;
+    margin : 0 auto;
+}
+
+.sidebox{
+    padding : 0;
+    background-image : url("../images/Rider.jpg");    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size : cover;    
+    height : 500px;
+    z-index : 5;
+}
+
+.sideboxtint{
+    width : 100%;
+    height : 100%;
+    padding : 20px; 
+    background-color : #021f30d3;
+    height : 500px;
+}
+#bikelogo{    
+    -webkit-filter: drop-shadow(0 0 40px #000000);    
+            filter: drop-shadow(0 0 40px #000000);
+    max-width : 80%;
+    margin-top : 25px;
+    position : relative;
+    left : 10%;
+    right : 10%;
+}
+
+.details{
+    height : -webkit-fit-content;
+    height : -moz-fit-content;
+    height : fit-content;
+    margin : 20px 0;
+    position : relative;
+}
+
+#price{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    color : #dddddd;
+    font-size : 40px;
+    font-style : italic;
+}
+
+.vl {
+    border-left: 4px solid #03adad;
+    margin-left: -2px;
+    position : absolute;
+    left : 70;
+    height : auto;
+}
+
+#detail1{
+    padding : 0 30px;    
+}
+
+.detail{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 25px;
+    color : #eeeeee;
+    display : block;
+    font-style: italic;
+    font-weight: 200;
+    padding : 15px;
+    margin : -10px 20px;
+    border-radius : 15px;
+    -webkit-transition : 200ms;
+    -o-transition : 200ms;
+    transition : 200ms;
+    cursor: context-menu;
+}
+.detail:hover{
+    background-color: #eeeeee33;
+}
+
+.topic{
+    font-style: normal;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+#colorspallete{
+    width : 100%;
+    height : -webkit-fit-content;
+    height : -moz-fit-content;
+    height : fit-content;
+    position : absolute;
+    bottom : 0;
+    left : 0;
+    right : 0;
+    margin : 0 auto;
+    background-color: #cfcfcfc7;
+}
+.colors{
+    cursor : context-menu;
+    width : -webkit-fit-content;
+    width : -moz-fit-content;
+    width : fit-content;    
+    margin : 0 auto;
+    padding : 5px;
+}
+
+.colorcircle{
+    font-size : 40px;
+    padding : 6px;
+}
+.colorcircle:hover{    
+    -webkit-filter: drop-shadow(0 0 10px #ffffffe7);    
+            filter: drop-shadow(0 0 10px #ffffffe7);
+}
+
+.colorname{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color : #1a1a1a;
+    text-align : center;
+    font-size : 30px;
+    padding-top : 12px;
+}
+
+.vl {
+    border-left: 4px solid #0883bd;
+    height: 94%;
+    position: absolute;
+    left: 10;
+    margin-left: -2px;
+    top: 3%;
+}
+.specsbox{
+    background-image : url("../images/Petrol.jpg");    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size : cover;   
+    height : 500px;
+    padding : 0;
+}
+#specstint{
+    background-color : #021f30f5;
+}
+#specstopic{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 40px;
+    font-weight : 500;
+    color : #eeeeee;
+    text-align : center;
+    vertical-align: middle;
+    height : 100px;
+    line-height: 100px;
+}
+#specstablediv{
+    height : 400px;
+    overflow-y: scroll;
+}
+#specstable{
+    color: #eeeeee;
+    font-size: 20px;
+    margin : 10px 10%;
+    margin-bottom : 150px;
+}
+
+td:nth-child(2n){
+    text-align: right;
+    font-weight : 200;
+    font-style : italics;
+}
+td{
+    padding : 20px;
+}
+
+table{
+    font-family: 'Ubuntu', sans-serif;
+    width : 80%;
+    cursor: context-menu;
+    margin : auto;
+}
+
+tr{
+    height : 50px;
+    -webkit-transition : 200ms;
+    -o-transition : 200ms;
+    transition : 200ms;
+}
+
+tr:nth-child(odd){
+    background-color: #eeeeee0c;
+}
+
+tr:hover{
+    background-color: #eeeeee15;
+}
+
+.youtubebox{
+    height : 500px;
+    padding : 0;
+}
+
+.reviewbox{
+    height : -webkit-fit-content;
+    height : -moz-fit-content;
+    height : fit-content;
+    width : fit-content;
+    max-width : 100%;
+    padding : 20px 40px;
+    border-radius : 15px;
+    background-image: linear-gradient( #03213a,#02121f);
+    box-shadow: 0 100px 50px 50px #01102473;
+}
+.reviewbox h1{
+    display : block;
+    font-family: 'Josefin Sans', sans-serif; 
+    font-size: 30px;
+    font-weight : 600;
+    color : #eeeeee;
+    text-align : center;
+    width : 100%;
+}
+#reviews{
+    display : block;
+    line-break: strict;
+    width : 100%;
+}
+.rating{    
+    display : inline-block;
+    margin : 10px;
+    padding : 15px;
+    border-radius : 15px; 
+    -webkit-transition : 200ms; 
+    -o-transition : 200ms; 
+    transition : 200ms;
+}
+
+.rating:hover{
+    text-decoration: none;  
+    background-color : #e2e2e21a;    
+    -webkit-filter: drop-shadow(0 0 10px #000000e7);    
+            filter: drop-shadow(0 0 10px #000000e7);
+}
+
+.reviewtitle{        
+    color : #eeeeee;    
+    font-family: 'Ubuntu', sans-serif;
+    font-size : 20px;
+}
+.ratingdata h6{
+    font-family: 'Josefin Sans', sans-serif; 
+    font-size : 20px;
+    text-align: center;
+    color : #b9ad00;
+    padding-top : 10px;
+}
+.datanumber{
+    color : #007cad;
+}
+/* Scrollbar Styling */
+::-webkit-scrollbar {
+    width: 0;
+}
+ 
+::-webkit-scrollbar-track {
+    background-color: #ffffff00;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #08526400;
+}
+
+
+
+
+.variantsbox{
+    padding : 0;
+    background-image: url("../images/Texture/Texture.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size :  cover;
+}
+.variantstint{
+    background-color: #021f30e0;
+    padding : 20px;
+}
+.variantstable{
+    width : 100%;
+    display : -webkit-box;
+    display : -ms-flexbox;
+    display : flex;
+    -webkit-box-align : center;
+        -ms-flex-align : center;
+            align-items : center;
+    -webkit-box-pack : center;
+        -ms-flex-pack : center;
+            justify-content : center;
+}
+
+.variants{
+    display : table;
+    width : 100%;
+    max-width : 1000px;
+    padding : 0;
+    background-color: #00000015;
+}
+
+.variant{
+    display : table-cell;
+    color : #eeeeee;
+    width : 33.33%;
+    margin:0;
+
+}
+ul{
+    margin : 0 !important;
+}
+
+.variantsbox h1{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 40px;
+    font-weight : 500;
+    color : #eeeeee;
+    text-align : center;
+    vertical-align: middle;
+    height : 100px;
+    width : 100%;
+    line-height: 100px;
+}
+.varianthead{
+    background-color: #00000035;
+    padding : 20px;
+}
+
+.varianthead div{
+    font-family: 'Josefin Sans', sans-serif; 
+    font-weight: 600;   
+    font-size : 25px;
+    text-align: center;
+}
+.variantprice{
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    color : #eeeeee75;
+}
+.featuretopic{
+    font-family : 'Cabin', sans-serif;
+    font-weight : 500;
+    font-size : 20px;
+    text-align : center;
+}
+
+.features{
+    list-style: none;
+    padding : 0;
+
+}
+.features li:before {
+    content: '✓';
+    color : #12c421;
+    margin : 0 20px;
+}
+.features .cross:before {
+    content: '✗';
+    color : #fc2802;
+    margin : 0 20px;
+}
+.features li{
+    font-family: 'Ubuntu', sans-serif;
+    padding : 10px;
+    font-size : 15px;
+    transition : 200ms;
+}
+
+.features li:hover{
+    background-color: #1351a310;
+    cursor : context-menu;
+}
+
+.variantstablesm{
+    display : -webkit-box;
+    display : -ms-flexbox;
+    display : flex;
+    -webkit-box-align : center;
+        -ms-flex-align : center;
+            align-items : center;
+    -webkit-box-pack : center;
+        -ms-flex-pack : center;
+            justify-content : center;
+    width : 100%;
+}
+
+.variantssm{
+    display : table;
+    width : 100%;
+    max-width : 1000px;
+    padding : 0;
+    background-color: #00000015;
+}
+
+.variantheadsm{
+    position : relative;
+    background-color: #00000017;
+    padding : 20px;
+    transition : 300ms;
+}
+.variantheadsm:hover{
+    background-color: #5c5c5c22;
+    cursor : hand;
+}
+.variantheadsm div{
+    font-family: 'Josefin Sans', sans-serif; 
+    font-weight: 600;   
+    font-size : 25px;
+    color : #eeeeee;
+}
+.variantpricesm{
+    font-family: 'Ubuntu', sans-serif;
+    color : #eeeeee75;
+}
+.featuretopicsm{
+    display : none;
+    font-family : 'Cabin', sans-serif;
+    font-weight : 500;
+    font-size : 20px;
+    color : #eeeeee;
+}
+
+.featuressm{
+    height : fit-content;
+    color : #eeeeee;
+    padding : 200px;
+    display : none;
+    list-style: none;
+    padding : 0;
+    background-color: #5c5c5c22;
+}
+.featuressm li:before {
+    content: '✓';
+    color : #12c421;
+    margin : 0 20px;
+}
+.featuressm .cross:before {
+    content: '✗';
+    color : #fc2802;
+    margin : 0 20px;
+}
+.featuressm li{
+    font-family: 'Ubuntu', sans-serif;
+    padding : 10px;
+    font-size : 20px;
+    transition : 200ms;
+}
+.variantheadsm i{
+    position : absolute;
+    top : 45%;
+    bottom : 50%;
+    right : 30;
+    color : #eeeeee70;
+    font-size : 20px;
+    transition : 200ms;
+}
+
+.variantheadsm:hover i{
+    color : #eeeeeeef;
+}
+
+
+
+.bookingbox{
+    height : fit-content;
+    background-image: url("../images/Texture/Blue\ Texture.jpg");    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size : cover; 
+    padding : 0;
+}
+
+.bookingboxtint{
+    background-image: linear-gradient(#03101a, #011c30b4);
+    padding : 20px 0;
+}
+
+.bookingboxtint div{
+    margin : auto;
+}
+
+#buyinginfo{
+    background-color : #bdbdbd;
+}
+.infohead{
+    color : #eeeeee;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size : 28px;
+    font-weight : 500;
+    width : fit-content;
+    margin : auto;
+}
+
+.infosubhead{
+    color : #eeeeeea9;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size : 17px;
+    font-weight : 500;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.infosubhead span{
+    white-space : pre;
+}
+
+#payspan{
+    display : block;
+    text-align : center;
+    color : #eeeeeea9;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size : 17px;
+    font-weight : 500;
+    padding-top : 10px;
+    transition : 300ms;
+}
+
+.abcdef:hover #payspan{
+    color : #ffffff;
+}
+
+#brochure{
+    display : block;
+    text-decoration: none;
+    padding : 10px 20px;
+    margin : 10px;
+    width : fit-content;
+    color : #c00000;
+    background-color :#ddddddce;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 500;
+    border-radius : 50px;
+    font-size: 17px;
+    transition : 300ms;
+}
+#brochure:hover{    
+    background-color :#eeeeee;
+    text-decoration: none;
+}
+
+#bookbtn{
+    display : block;
+    text-decoration: none;
+    padding : 10px 20px;
+    margin : 10px;
+    width : fit-content;
+    color : #7e0083;
+    background-color: #ddddddce;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 500;
+    border-radius : 50px;
+    font-size: 17px;
+    transition : 300ms;
+}
+#bookbtn:hover{
+    background-color :#eeeeee;
+    cursor : hand;
+}
+
+.yourbike{
+    background-color: #030f1fec;
+    position : fixed;
+    top: 0;
+    left : 0;
+    height : 100vh;
+    width : 100vw;
+    z-index : 50;
+    display : none;
+}
+
+.yourbike .d-flex{
+    height : 100vh;
+}
+
+.yourbikebox{
+    background-color : #0e0e0e;
+    color : #eeeeee;
+    padding : 20px;
+    width : fit-content;
+    -webkit-filter: drop-shadow(0 0 10px #000000e7);    
+            filter: drop-shadow(0 0 10px #000000e7);
+    display : none;
+    
+}
+
+.bookingpopup{
+    background-color: #030f1fec;
+    position : fixed;
+    top: 0;
+    left : 0;
+    height : 100vh;
+    width : 100vw;
+    z-index : 50;
+    display : none;
+}
+.bookingpopup .d-flex{
+    height : 100vh;
+}
+.bookingpopupbox{
+    color: #eeeeee;
+    width : fit-content;
+    height : fit-content;
+    background-color : #0e0e0e;
+    padding : 20px;
+    border-radius : 15px;    
+    -webkit-filter: drop-shadow(0 0 10px #000000e7);    
+            filter: drop-shadow(0 0 10px #000000e7);
+    display : none;
+}
+
+.bookinghead{
+    font-family: 'Staatliches', cursive;
+    color : #26a8ff;
+    font-size : 33px;
+}
+.bookingcross{
+    color : #b8b8b8;
+    font-size : 20px;
+    margin-left : 60px;
+    padding : 0;
+    height : 100%;
+    cursor : hand;
+    transition : 300ms;
+}
+.bookingcross:hover{
+    color : #eeeeee;
+}
+.bookingsubhead{    
+    color : #b8b8b8;
+    font-family : 'Cabin', sans-serif;
+    font-size : 20px;
+}
+
+.bookinginputdiv{
+    position : relative;
+}
+
+.bookinglabel {
+    color : #949494;
+    font-family : 'Ubuntu', sans-serif;
+    font-weight: 500;
+    position : absolute;
+    top : 50;
+    left : 10;
+    font-size : 15px;
+    transition : 200ms;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none;
+    pointer-events: none;
+}
+
+/*
+input:focus ~ .bookinglabel {
+    color : #eeeeee;
+    position : absolute;
+    top : 20;
+    left : 3;
+    font-size : 18px;
+}
+*/
+
+.bookinginput{
+    background-color : #c4c4c42c;
+    border : none;
+    color : #eeeeee;
+    margin-top : 40px;
+    padding : 20px 10px;
+    width : 100%;
+    height : 35px;
+    border-radius: 5px;
+    outline : none;
+    font-family : 'Ubuntu', sans-serif;
+}
+
+.bookinginputbox{
+    background-color : #c4c4c42c;
+    border : none;
+    color : #eeeeee;
+    margin-top : 40px;
+    padding : 10px;
+    width : 100%;
+    min-height : 100px;
+    height : fit-content;
+    border-radius: 5px;
+    outline : none;
+    font-family : 'Ubuntu', sans-serif;
+}
+
+.bookingbutton{
+    background-color : #008ae6;
+    color : #000000;
+    font-family : 'Ubuntu', sans-serif;
+    font-weight : 500;
+    font-size : 16px;
+    margin-top : 30px;
+    margin-bottom : 20px;
+    padding : 7px 35px;
+    border : none;
+    border-radius : 7px;
+    text-decoration: none;
+    outline : none;
+}
+
+#yourbike{
+    font-family : 'Ubuntu', sans-serif;    
+    font-size: 25px;
+    margin-top : 15px;
+    padding : 5px 0;
+}
+
+#bookingbikename{ 
+    font-family: 'Acme', sans-serif;
+    font-size: 33px;
+}
+
+#bookingbikecolor{ 
+    font-family : 'Ubuntu', sans-serif;
+    font-size : 17px;
+    background-color : #00000000;
+    color : #eeeeee;
+    border : none;
+    padding : 6px 10px;
+    border-radius : 15px;
+    margin-left : -4px;
+    outline : none;
+    display : block;
+    width : 100%;
+}
+
+.bookingcartdetails{
+    padding : 6px;
+    padding-left : 10px;
+}
+
+#bookingbikelist{    
+    font-family : 'Ubuntu', sans-serif;
+    font-size : 17px;
+    background-color : #00000000;
+    color : #eeeeee;
+    border : none;
+    padding : 6px 10px;
+    border-radius : 15px;
+    margin-left : -4px;
+    outline : none;
+    display : block;
+    width : 100%;
+}
+
+#bookingbikelist select{
+    font-family : 'Ubuntu', sans-serif;
+    background-color : #000000;
+    color : #eeeeee;
+    border : none;
+    padding : 10px;
+}
+
+.bookingbikedetails{
+    margin-top : 30px;
+    padding : 10px;
+    padding-bottom : 30px;
+    background-color : #c4c4c42c;
+    border-radius: 5px;
+}
+
+.bookingbuttonbox{
+    width : fit-content;
+    margin : auto;
+}
+
+
+.warning{
+    color : #db2c00;
+    padding-top : 10px;
+    padding-left : 3px;
+    font-family : 'Ubuntu', sans-serif;
+    font-weight : 600;
+    display : none;
+}
+
+.roboverificationtint{    
+    background-color: #030f1fec;
+    position : fixed;
+    top: 0;
+    left : 0;
+    height : 100vh;
+    width : 100vw;
+    z-index : 50;
+
+    display : none;
+    align-items : center;
+    justify-content : center;
+}
+
+.g-recaptcha{
+    position : relative;
+    margin-top : 10px;
+    width : 100%;
+}
+
+.roboverificationbox{    
+    color: #eeeeee;
+    padding : 20px;
+    width : fit-content;
+    height : fit-content;
+    background-color : #e2e2e2;
+    border-radius : 15px;    
+    display : none;
+
+    -webkit-filter: drop-shadow(0 0 10px #000000e7);    
+            filter: drop-shadow(0 0 10px #000000e7);
+}
+.vericross{
+    color : #1d1d1d;
+    font-size : 20px;
+    padding : 0;
+    height : 100%;
+    width : 100%;
+    cursor : hand;
+    margin-left : 94%;
+}
+.vericross:hover{
+    color : #000000;
+}
+.submit-button{
+    width : 100%;
+    font-family : 'Cabin', sans-serif;
+    margin-top : 5px;
+}
+
+.captchawarning{
+    color : #b30b0b;
+    font-family : 'Cabin', sans-serif;
+    font-weight: 600;
+    font-size : 17px;
+    margin-bottom : 10px;
+    text-align: center;
+    display : none;
+}
+
+#sprompt{
+    z-index : 30;
+    position : fixed;
+    top  : 0;
+    left : 0;
+    background-color: #030f1fec;
+    height : 100%;
+    width : 100%;
+    display : none;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#spromptbox{
+    height: fit-content;
+    width: fit-content;
+    padding : 20px;
+    background-color: #eeeeee;
+    border : none;
+    border-radius: 15px;
+}
+
+#scross{
+    color : #636363;
+    width : 100%;
+    text-align : right;
+    font-size: 20px;
+}
+
+#scross:hover{
+    color : #313131;
+}
+
+#spromptmsg1{
+    color : #19a107;
+    padding : 10px;    
+}
+#spromptmsg2{
+    color : #091f33;
+    padding : 10px;
+}
+
+.halfblackblue{
+    background: linear-gradient(to right, #111111 50%, #003f66 50%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.halfblackgold{
+    background: linear-gradient(to right, #111111 50%, #ac8c00 50%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.halfblackgrey{
+    background: linear-gradient(to right, #111111 50%, #808080 50%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.halfblackred{
+    background: linear-gradient(to right, #111111 50%, #b6110c 50%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#deluxebox{
+    position : absolute;
+    top : 0;
+    right : 0;
+    margin : 20px 40px;
+    padding : 7px 30px;
+    display : none;
+    font-family: 'Cabin', sans-serif; 
+    font-weight : 600;
+    font-size : 25px;
+    background-color: #ffffffa9;
+    color : #e29b00;
+    border-radius : 50px;
+}
+
+.loadingtint{
+    position : fixed;
+    top : 0;
+    left : 0;
+    z-index : 100;
+    background-color : #0e111f;
+    display : flex;
+    align-items : center;
+    justify-content : center;
+    width :100%;
+    height : 100%;
+}

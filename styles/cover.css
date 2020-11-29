@@ -1,0 +1,68 @@
+
+#coverphoto{
+    background-image : url("../images/BikeCoverImage.jpg");
+    background-size: cover;
+    background-position: center;
+    padding : 0;
+    height : 400px;
+}
+
+#covertint{
+    height : 100%;
+    background-color : #00000094;
+    display : flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.coverheading{
+    text-align: center;
+    padding: 20px 0px;
+    padding-top : 0;
+    color : #efefef;
+    font-size: 70px;
+    letter-spacing: 1.5px;
+    
+    font-family: 'Staatliches', cursive;
+    cursor: default;
+}
+.coverheading:hover{
+    font-size: 80px;    
+    color : #ffffff;
+    animation-name: coverplussize;
+    animation-duration : .5s;    
+}
+
+@keyframes coverplussize{
+    from{
+        font-size: 70px;
+        color : #efefef;}
+    to{
+        font-size: 80px;
+        color : #ffffff;
+    }
+}
+
+.coverheadinghrline{
+    width : 200px;
+    padding: 0;
+    margin-left : auto;
+    margin-right : auto;
+    margin-top : -20px;
+    margin-bottom : 40px;
+    
+    height: 2px;
+    background-color:  #b1b1b1;
+}
+
+.coverheading:hover + .coverheadinghrline{
+    width : 230px;
+    animation-name: coverheadingsize;
+    animation-duration : .5s;    
+}
+
+@keyframes coverheadingsize{
+    from{width : 200px;}
+    to{width : 230px;}
+}

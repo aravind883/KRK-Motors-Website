@@ -1,0 +1,485 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yantramanav&display=swap');
+table,
+th,
+td {
+    border: 1px solid black;
+}
+
+#ccell {
+    padding: 0;
+}
+
+.tiles {
+    max-height: fit-content;
+    height: 50%;
+}
+
+.smalltiles {
+    height: 200px;
+}
+
+.blurbg {
+    background-image: url("../images/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+#tile1 {
+    color: #9b0808;
+    background-color: #ffffffa1;
+    white-space: normal;
+    border-radius: 0;
+    outline: none !important;
+    box-shadow: none;
+}
+
+#tile2 {
+    color: #0a4e85;
+    background-color: #ffffffb1;
+    white-space: normal;
+    border-radius: 0;
+    outline: none !important;
+    box-shadow: none;
+}
+
+#tile3 {
+    color: #ca8606;
+    background-color: #ffffffc1;
+    white-space: normal;
+    border-radius: 0;
+    outline: none !important;
+    box-shadow: none;
+}
+
+#tile4 {
+    color: #127509;
+    background-color: #ffffffd1;
+    white-space: normal;
+    border-radius: 0;
+    outline: none !important;
+    box-shadow: none;
+}
+
+#tile1:hover {
+    background-color: #eeeeee;
+}
+
+#tile2:hover {
+    background-color: #eeeeee;
+}
+
+#tile3:hover {
+    background-color: #eeeeee;
+}
+
+#tile4:hover {
+    background-color: #eeeeee;
+}
+
+.tileicon {
+    text-align: center;
+}
+
+.tileheading {
+    font-weight: 700;
+    font-family: 'Overpass', sans-serif;
+    font-size: 1.5vw;
+    text-align: center;
+}
+
+.stileheading {
+    font-weight: 700;
+    font-family: 'Overpass', sans-serif;
+    font-size: 17px;
+    text-align: center;
+}
+
+.tileinner {
+    align-items: center;
+    justify-content: center;
+    padding: auto;
+}
+
+.map {
+    width: 100%;
+    height: 300px;
+}
+
+.mapplace {
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 20px;
+    color: #0d2c6e;
+}
+
+.mapcard {
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    background-color: #e4e4e4;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.mapcard:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(65, 65, 65, 0.19);
+}
+
+.mapcard:hover .mapplace {
+    font-weight: 600;
+}
+
+.mapcardshadow {
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    background-color: #e4e4e4;
+    font-family: 'Varela Round', sans-serif;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(65, 65, 65, 0.19);
+}
+
+.card {
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 15px;
+}
+
+.card-img-top {
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: ;
+}
+
+.card-img {
+    height: 200px;
+    object-fit: scale-down;
+    padding: 10px;
+}
+
+.card-img:hover {
+    height: 200px;
+    object-fit: scale-down;
+    padding: 10px;
+}
+
+.card-img-tint {
+    background-color: #dfc9c986;
+    border-radius: 15px;
+    width: 100%;
+}
+
+.card-title-logo {
+    display: none;
+    width: 80%;
+    background-color: white;
+}
+
+.card-title {
+    vertical-align: middle;
+    text-align: center;
+}
+
+.card-body {
+    height: 120px;
+}
+
+.card:hover .card-img-tint {
+    background-color: #bdbdbdaf;
+    animation-name: animation1;
+    animation-duration: 0.5s;
+}
+
+@keyframes animation1 {
+    from {
+        background-color: #dfc9c986;
+    }
+    to {
+        background-color: #bdbdbdaf;
+    }
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(161, 161, 161, 0.089);
+    transition: box-shadow 200ms;
+}
+
+.card:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(65, 65, 65, 0.19);
+}
+
+.card-text {
+    text-align: center;
+}
+
+.btn-bikes {
+    background-color: #0b7dbe;
+    outline: none;
+    border: none;
+}
+
+.card-div {
+    display: inline-block;
+    width: 300px !important;
+    margin: 10px;
+}
+
+#bikebtn {
+    margin: 20px;
+    padding: 10px 20px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 16px;
+    border-radius: 10px;
+}
+
+.paymentdetail {
+    width: 200px;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 15px;
+}
+
+.paymentdetail h1 {
+    font-size: 50px;
+    text-align: center;
+    padding: 20px
+}
+
+.paymentdetail h5 {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+#creditcard {
+    background-color: #cab0687e;
+    transition: background-color 200ms;
+}
+
+#debitcard {
+    background-color: #088a9b4f;
+    transition: background-color 200ms;
+}
+
+#otherpayment {
+    background-color: #04b30d67;
+    transition: background-color 200ms;
+}
+
+#creditcard:hover {
+    background-color: #f7bb17;
+}
+
+#debitcard:hover {
+    background-color: #34cee2;
+}
+
+#otherpayment:hover {
+    background-color: #47e44f;
+}
+
+.financelogodiv {
+    padding: 10px;
+    text-align: center;
+    border-radius: 15px;
+    margin: 15px;
+}
+
+.financelogo {
+    width: 80%;
+    max-width: 100%;
+    justify-content: center;
+    -webkit-filter: drop-shadow(5px 5px 5px #949494);
+    filter: drop-shadow(5px 5px 5px #949494);
+}
+
+.financingpara {
+    font-size: 25px;
+    font-weight: 600;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    max-width: 70%;
+    color: #003d55;
+    margin: auto;
+    padding-bottom: 10px;
+    -webkit-filter: drop-shadow(5px 5px 5px #ffffff);
+    filter: drop-shadow(5px 5px 5px #ffffff);
+}
+
+#financelink {
+    white-space: nowrap;
+    text-decoration: none;
+    color: #0084ff;
+}
+
+#FinanceDivision {
+    background-image: url("../images/Finance.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+#PayMethodsDivision {
+    background-image: url("../images/PaymentMethod.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    overflow: hidden;
+}
+
+#FinanceTint {
+    padding: 40px;
+    background-color: #eeeeeebb;
+}
+
+#PayMethodsTint {
+    padding: 40px;
+    background-color: #ecfbffbb;
+}
+
+
+}
+.btn-secondary {
+    background-color: #a10f0f;
+    border-radius: 50px;
+    border: none;
+}
+.trsubmit {
+    background-color: #791111;
+    color: white;
+    padding: 5px 10px;
+    font-family: 'Josefin Sans', sans-serif;
+    width: 25%;
+    margin-top: 35px;
+}
+.warning {
+    color: #b90c0c;
+    padding-left: 5px;
+    padding-bottom: 10px;
+    font-family: 'Yantramanav', sans-serif;
+    display: none;
+}
+.form-control {
+    color: #000000;
+    width: 100%;
+    display: inline;
+    font-family: 'Josefin Sans', sans-serif;
+}
+#TestRideDivision {
+    padding: 20px;
+}
+#trdate {
+    width: 49.5%;
+}
+#trtime {
+    width: 49.5%;
+}
+#testrideimage {
+    width: 100%;
+    height: 100%;
+    object-position: center;
+    object-fit: contain;
+    border-radius: 15px;
+    background-color: #ffffff;
+}
+.trlabels {
+    padding: 5px;
+    display: block;
+    width: 100%;
+    font-family: 'Josefin Sans', sans-serif;
+    margin-top: 35px;
+}
+.trlabels:first-child {
+    margin-top: 0;
+}
+#tdform {
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+input[type=number] {
+    -moz-appearance: textfield;
+}
+#dateandtime {
+    white-space: nowrap;
+}
+.mlabels {
+    padding: 5px;
+    display: block;
+    width: 100%;
+    font-family: 'Josefin Sans', sans-serif;
+    margin-top: 35px;
+}
+.mlabels:first-child {
+    margin-top: 0;
+}
+#mmessage {
+    margin-bottom: 20px;
+    height: 100px;
+}
+#last {
+    margin-bottom: 30px;
+}
+#msgimg {
+    background-color: #00c388;
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    object-position: center;
+    border-radius: 25px;
+}
+#splashscreen {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff;
+    z-index: 150;
+}
+#splashdiv {
+    width: 100%;
+    height: 100%;
+}
+.hidden {
+    animation: fadeOut 1s;
+    animation-fill-mode: forwards;
+}
+@keyframes fadeOut {
+    100% {
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+.blockdisplay img {
+    width: 35%;
+    display: block;
+    margin: auto;
+}
+.blockdisplay {
+    width: 100%;
+    display: block;
+}
+#payimg{
+    width : 160%;
+    padding : 20px 0;
+}
+@media (min-width: 768px) { 
+    #payimg{
+        width : 60%;
+        padding : 20px 0;
+    }
+}
