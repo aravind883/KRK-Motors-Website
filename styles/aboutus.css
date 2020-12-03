@@ -1,0 +1,38 @@
+
+.map {
+    width: 100%;
+    height: 300px;
+}
+
+.mapplace {
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 20px;
+    color: #0d2c6e;
+}
+
+.mapcard {
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    background-color: #e4e4e4;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.mapcard:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(65, 65, 65, 0.19);
+}
+
+.mapcard:hover .mapplace {
+    font-weight: 600;
+}
+
+.mapcardshadow {
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    background-color: #e4e4e4;
+    font-family: 'Varela Round', sans-serif;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(65, 65, 65, 0.19);
+}
