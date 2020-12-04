@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+a{
+    text-decoration: none;
+}
+
+.tile{
+    background-color : #ffffff;
+    padding : 5px;
+    display : inline-block;
+    border-radius : 15px;
+    transition: 300ms;
+    cursor : default;
+    min-height : 150px;
+    margin : 5px;
+    text-align : center;
+    text-decoration: none;
+}
+.tile:hover{
+    background-color : #ffffff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(161, 161, 161, 0.089);
+    text-decoration: none;
+}
+
+.tile:hover .tiletopic{
+    color : #000000;
+    text-decoration: none;
+}
+
+.tileicon{
+    font-size : 30px;
+    text-align : center;
+    padding : 10px;
+}
+
+#contactusgif{
+    min-height : 300px;
+    width: 100%;
+    height: 100%;
+    object-position: center;
+    object-fit: contain;
+    border-radius: 15px;
+    background-color: #ffffff;
+    transition : 300ms;
+}
+#contactusgif:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(161, 161, 161, 0.089);
+}
+
+.tiletopic{
+    padding : 5px;
+    color : #333333;
+    font-weight: 700;
+    display : block;
+    text-transform: uppercase;
+    transition : 300ms;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size : 18px;
+}
+
+#emailtile .tileicon{
+    color : #c00600;
+}
+
+#phonetile .tileicon{
+    color : #0b8600;
+}
+
+#whatsapptile .tileicon{
+    color : #0b8600;
+}
+
+#socialmediatile div{
+    text-align: center;
+}
+
+#fblink{
+    color : #4267B2;
+    padding : 6px;
+    border-radius : 5px;
+    font-size : 35px;
+    transition : 300ms;
+    line-height: 40px;
+}
+#instalink{
+    color : #eb27e1;
+    padding : 6px;
+    border-radius : 5px;
+    font-size : 35px;
+    transition : 300ms;
+    line-height: 40px;
+}
+
+#fblink:hover{
+    background-color : #eeeeee;
+}
+#instalink:hover{
+    background-color : #eeeeee;
+}
+
+#maillink{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight : 500;
+    color : #c00600;
+    white-space: nowrap;
+    line-height: 20px;
+}
+#maillink i{
+    font-size : 20px;
+}
+
+#phonelink{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight : 500;
+    color : #0b8600;
+    white-space: nowrap;
+    line-height: 20px;
+}
+#phonelink i{
+    font-size : 20px;
+}
+
+#whatsapplink{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight : 500;
+    color : #0b8600;
+    white-space: nowrap;
+    line-height: 20px;
+}
+
+#whatsapplink i{
+    font-size : 20px;
+}
+
+.addresstile{
+    padding : 20px;
+}
+
+.addresstiletopic{
+    padding : 5px 0;
+    color : #333333;
+    font-weight: 700;
+    display : block;
+    text-transform: uppercase;
+    transition : 300ms;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size : 20px;
+    text-align: left;
+}
+
+.address{
+    text-align : left;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 500;
+    color : #004e97;
+    padding-right : 20px;
+}
+
+.intilemap{
+    display : block;
+    background-color : ;
+    background-image: linear-gradient(to bottom,#015db3 , #00213f);
+    height : 165px;
+    width : 165px;
+    min-width : 165px;
+    border-radius : 15px;
+    color : #eeeeee;
+    transition : 300ms;
+    cursor : hand;
+    text-decoration: none;
+
+}
+
+.intilemap:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(161, 161, 161, 0.623);
+    color : #eeeeee;
+    text-decoration: none;
+}
+
+.intilemap div i{
+    display : block;
+    font-size : 43px;
+    padding : 10px;
+    transition : 600ms;
+}
+
+.intilemap div span{
+    display : block;
+    font-size : 18.5px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+    padding : 10px;
+    transition : 600ms;
+}
+
+.intilemap:hover div i{
+    font-size : 45px;
+    color : #ffffff;
+
+}
+.intilemap:hover div span{
+    font-size : 20px;
+    color : #ffffff;
+}

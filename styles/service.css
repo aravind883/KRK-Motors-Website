@@ -130,3 +130,7 @@
     color : #c20000;
     padding : 5px;
 }
+
+.dropdown-item{
+    padding : 100px;
+}
