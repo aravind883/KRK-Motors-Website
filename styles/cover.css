@@ -30,8 +30,20 @@
 .coverheading:hover{
     font-size: 80px;    
     color : #ffffff;
-    animation-name: coverplussize;
-    animation-duration : .5s;    
+    -webkit-animation-name: coverplussize;
+            animation-name: coverplussize;
+    -webkit-animation-duration : .5s;
+            animation-duration : .5s;    
+}
+
+@-webkit-keyframes coverplussize{
+    from{
+        font-size: 70px;
+        color : #efefef;}
+    to{
+        font-size: 80px;
+        color : #ffffff;
+    }
 }
 
 @keyframes coverplussize{
@@ -58,8 +70,15 @@
 
 .coverheading:hover + .coverheadinghrline{
     width : 230px;
-    animation-name: coverheadingsize;
-    animation-duration : .5s;    
+    -webkit-animation-name: coverheadingsize;
+            animation-name: coverheadingsize;
+    -webkit-animation-duration : .5s;
+            animation-duration : .5s;    
+}
+
+@-webkit-keyframes coverheadingsize{
+    from{width : 200px;}
+    to{width : 230px;}
 }
 
 @keyframes coverheadingsize{

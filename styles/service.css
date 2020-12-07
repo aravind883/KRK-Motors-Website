@@ -6,6 +6,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Yantramanav&display=swap');
 
 #bodycontents{
+    height : -webkit-fit-content;
+    height : -moz-fit-content;
     height : fit-content;
 }
 #timingchart{
@@ -13,6 +15,8 @@
     padding : 20px;
     border-radius: 15px;
     transition : 300ms;
+    height : -webkit-fit-content;
+    height : -moz-fit-content;
     height : fit-content;
     margin-bottom : 40px;
 }
@@ -101,6 +105,8 @@
     margin-top : 10px;
     border-radius: 15px;
     transition : 300ms;
+    height : -webkit-fit-content;
+    height : -moz-fit-content;
     height : fit-content;
     cursor: default;
 }

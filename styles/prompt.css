@@ -15,7 +15,11 @@
 }
 
 #promptbox{
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
     height: fit-content;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
     width: fit-content;
     padding : 20px;
     background-color: #eeeeee;
@@ -37,7 +41,11 @@
 }
 
 #spromptbox{
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
     height: fit-content;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
     width: fit-content;
     padding : 20px;
     background-color: #eeeeee;

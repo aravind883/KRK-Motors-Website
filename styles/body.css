@@ -28,8 +28,15 @@ body{
 }
 .heading:hover{
     font-size: 44px;
-    animation-name: plussize;
-    animation-duration : .5s;    
+    -webkit-animation-name: plussize;
+            animation-name: plussize;
+    -webkit-animation-duration : .5s;
+            animation-duration : .5s;    
+}
+
+@-webkit-keyframes plussize{
+    from{font-size: 40px;}
+    to{font-size: 44px;}
 }
 
 @keyframes plussize{
@@ -51,8 +58,15 @@ body{
 
 .heading:hover + .headinghrline{
     width : 230px;
-    animation-name: headingsize;
-    animation-duration : .5s;    
+    -webkit-animation-name: headingsize;
+            animation-name: headingsize;
+    -webkit-animation-duration : .5s;
+            animation-duration : .5s;    
+}
+
+@-webkit-keyframes headingsize{
+    from{width : 200px;}
+    to{width : 230px;}
 }
 
 @keyframes headingsize{

@@ -84,6 +84,8 @@ body {
 .bike-content {
     display: inline-block;
     padding: 20px;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
     width: fit-content;
     margin: 0;
     text-decoration: none;
@@ -185,6 +187,8 @@ h6 .fa:hover {
 
 #menu{
     padding : 0;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
     height: fit-content;
     
     position: -webkit-sticky !important; /* Safari */
