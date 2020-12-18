@@ -15,10 +15,7 @@ td {
 }
 
 .tiles {
-    max-height: -webkit-fit-content;
-    max-height: -moz-fit-content;
-    max-height: fit-content;
-    height: 50%;
+    min-height: 50%;
 }
 
 .smalltiles {
@@ -351,14 +348,16 @@ td {
     padding: 20px;
 }
 #trdate {
-    width: 49.5%;
+    width: 49%;
+    display : inline !important;
+    float : left;
 }
 #trtime {
-    width: 49.5%;
+    width: 49%;
+    display : inline !important;
+    float : right;
 }
 #testrideimage {
-    width: 100%;
-    height: 100%;
     -o-object-position: center;
        object-position: center;
     -o-object-fit: contain;
@@ -377,8 +376,6 @@ td {
     margin-top: 0;
 }
 #tdform {
-    width: 100%;
-    height: 100%;
     padding: 10px;
 }
 input::-webkit-outer-spin-button,
@@ -411,8 +408,6 @@ input[type=number] {
 }
 #msgimg {
     background-color: #00c388;
-    height: 100%;
-    width: 100%;
     -o-object-fit: contain;
        object-fit: contain;
     -o-object-position: center;

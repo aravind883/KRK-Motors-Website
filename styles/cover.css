@@ -102,3 +102,12 @@
     padding : 0;
     height : 400px;
 }
+
+
+#aboutuscoverphoto{
+    background-image : url("../images/Finance.jpg");
+    background-size: cover;
+    background-position: center;
+    padding : 0;
+    height : 400px;
+}
