@@ -111,3 +111,11 @@
     padding : 0;
     height : 400px;
 }
+
+#exchangecoverphoto{
+    background-image : url("../images/Exchange.jpg");
+    background-size: cover;
+    background-position: center;
+    padding : 0;
+    height : 400px;
+}
