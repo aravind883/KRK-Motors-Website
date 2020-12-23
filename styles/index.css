@@ -106,6 +106,10 @@ td {
     padding: auto;
 }
 
+#carouselplustiles{
+    height : inherit;
+}
+
 .card {
     margin-bottom: 20px;
     border: none;
