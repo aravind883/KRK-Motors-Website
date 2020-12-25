@@ -354,6 +354,7 @@
     width: 100%;
     display: inline;
     font-family: 'Josefin Sans', sans-serif;
+    background-color : #ffffff;
 }
 #TestRideDivision {
     padding: 20px;
@@ -485,4 +486,13 @@ input[type=number] {
     left : 0;
     z-index : 30;
     margin-bottom : -60px;
+}
+
+
+#testriderow, #testrideformbox{
+    height : fit-content;
+}
+
+#messagerow, #messageinputbox{
+    height : fit-content;
 }
