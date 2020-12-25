@@ -160,3 +160,7 @@ function closeSPrompt(){
 $(window).on('load', function() {
     $("#splashscreen").fadeOut();
 });
+
+
+
+//$("#jumbotrontiles").css("height", $(document).width() * 0.37125);

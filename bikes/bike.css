@@ -107,8 +107,12 @@ body{
     font-family: 'Ubuntu', sans-serif;
     font-weight: 400;
     color : #dddddd;
-    font-size : 40px;
+    font-size : 35px;
     font-style : italic;
+}
+
+#price span{
+    font-size : 20px;
 }
 
 .vl {

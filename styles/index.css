@@ -4,18 +4,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Yantramanav&display=swap');
-table,
-th,
-td {
-    border: 1px solid black;
-}
 
-#ccell {
-    padding: 0;
+
+.jumborow, #carousel{
+    height: fit-content;
 }
 
 .tiles {
-    min-height: 50%;
+    height: 50%;
 }
 
 .smalltiles {
@@ -116,6 +112,16 @@ td {
     border-radius: 15px;
 }
 
+.cardlink{
+    text-decoration : none;
+    color : #111111;
+}
+
+.cardlink:hover{
+    text-decoration: none;
+    color : #111111;
+}
+
 .card-img-top {
     border-radius: 15px;
     display: flex;
@@ -195,6 +201,7 @@ td {
 
 .card-text {
     text-align: center;
+    font-family: 'Overpass', sans-serif;
 }
 
 .btn-bikes {

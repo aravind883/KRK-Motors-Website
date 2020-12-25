@@ -106,7 +106,11 @@ body {
     display: block;
     line-height: 30px;
 }
-
+.price{
+    color : #333333;
+    font-family: 'Signika', sans-serif;
+    font-size : 20px;
+}
 .colon {
     position: absolute;
     left: 90px;

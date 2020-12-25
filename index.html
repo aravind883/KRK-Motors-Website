@@ -81,11 +81,11 @@
     <!--Content-->
 
     <!--Jumbotron Tiles-->
-    <div class="container-fluid">
-        <div class="row" id="carouselplustiles">
+    <div class="container-fluid" id="jumbotrontiles">
+        <div class="row jumborow">
 
             <!--Carousel-->
-            <div class="col-12 col-md-8" id="ccell">
+            <div class="col-12 col-md-8 p-0" id="carousel">
                 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                     <ol class="carousel-indicators">
                         <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -99,28 +99,28 @@
                     </ol>
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <img class="d-block w-100" src="images/Slider/1.jpg" alt="First slide">
+                            <a href="bikes/hornet2.html"><img class="d-block w-100" src="images/Slider/1.jpg" alt="First slide"></a>
                         </div>
                         <div class="carousel-item">
-                            <img class="d-block w-100" src="images/Slider/2.png" alt="Second slide">
+                            <a href="bikes/sp125.html"><img class="d-block w-100" src="images/Slider/2.png" alt="Second slide"></a>
                         </div>
                         <div class="carousel-item">
-                            <img class="d-block w-100" src="images/Slider/3.jpg" alt="Third slide">
+                            <a href="bikes/xblade.html"><img class="d-block w-100" src="images/Slider/3.jpg" alt="Third slide"></a>
                         </div>
                         <div class="carousel-item">
-                            <img class="d-block w-100" src="images/Slider/4.png" alt="Fourth slide">
+                            <a href="bikes/shine.html"><img class="d-block w-100" src="images/Slider/4.png" alt="Fourth slide"></a>
                         </div>
                         <div class="carousel-item">
-                            <img class="d-block w-100" src="images/Slider/5.jpg" alt="Fifth slide">
+                            <a href="bikes/grazia.html"><img class="d-block w-100" src="images/Slider/5.jpg" alt="Fifth slide"></a>
                         </div>
                         <div class="carousel-item">
-                            <img class="d-block w-100" src="images/Slider/6.jpg" alt="Sixth slide">
+                            <a href="bikes/activa125.html"><img class="d-block w-100" src="images/Slider/6.jpg" alt="Sixth slide"></a>
                         </div>
                         <div class="carousel-item">
-                            <img class="d-block w-100" src="images/Slider/7.jpg" alt="Seventh slide">
+                            <a href="bikes/dio.html"><img class="d-block w-100" src="images/Slider/7.jpg" alt="Seventh slide"></a>
                         </div>
                         <div class="carousel-item">
-                            <img class="d-block w-100" src="images/Slider/8.jpg" alt="Eight slide">
+                            <a href="bikes/unicorn.html"><img class="d-block w-100" src="images/Slider/8.jpg" alt="Eight slide"></a>
                         </div>
                     </div>
                     <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -182,7 +182,7 @@
             <div class="d-block d-md-none container-fluid">
                 <div class="row smalltiles">
 
-                    <a href="sales/exchange.html" class="btn col-6 d-flex" id="tile1">
+                    <a href="exchange.html" class="btn col-6 d-flex" id="tile1">
                         <div class="align-self-center  m-auto">
                             <div class="tileinner">
                                 <h1 class="tileicon"><i class="fas fa-exchange-alt"></i></h1>
@@ -190,7 +190,7 @@
                             </div>
                         </div>
                     </a>
-                    <a href="sales/financing.html" class="btn col-6 d-flex" id="tile2">
+                    <a href="#financinglink" class="btn col-6 d-flex" id="tile2">
                         <div class="align-self-center  m-auto">
                             <div class="tileinner">
                                 <h1 class="tileicon"><i class="fas fa-file-signature"></i></h1>
@@ -208,7 +208,7 @@
                             </div>
                         </div>
                     </a>
-                    <a href="sales/testride.html" class="btn col-6 d-flex" id="tile4">
+                    <a href="#testridelink" class="btn col-6 d-flex" id="tile4">
                         <div class="align-self-center m-auto">
                             <div class="tileinner">
                                 <h1 class="tileicon"><i class="fas fa-biking"></i></h1>
@@ -233,7 +233,7 @@
 
         <div class="row">
             <div class="col-6 col-lg-3">
-                <div class="card" href="#">
+                <a class="card cardlink" href="bikes/hornet2.html">
                     <div class="card-img-top">
                         <div class="card-img-tint">
                             <img class="card-img" src="images/Bikes/Hornet 2/Colors/MatTE-Marvel-Blue-Metallic.png" alt="Card image cap">
@@ -244,10 +244,10 @@
                         <h5 class="card-title">Hornet</h5>
                         <p class="card-text">₹ 1,30,000 /-</p>
                     </div>
-                </div>
+                </a>
             </div>
             <div class="col-6 col-lg-3">
-                <div class="card">
+                <a class="card cardlink" href="bikes/unicorn.html">
                     <div class="card-img-top">
                         <div class="card-img-tint">
                             <img class="card-img" src="images/Bikes/Unicorn/Colors/unicornBS6-black.png" alt="Card image cap">
@@ -258,10 +258,10 @@
                         <h5 class="card-title">Unicorn</h5>
                         <p class="card-text">₹ 96,672 /-</p>
                     </div>
-                </div>
+                </a>
             </div>
             <div class="col-6 col-lg-3">
-                <div class="card">
+                <a class="card cardlink" href="bikes/dio.html">
                     <div class="card-img-top">
                         <div class="card-img-tint">
                             <img class="card-img" src="images/Bikes/Dio/Colors/DeluxeYellow.png" alt="Card image cap">
@@ -272,10 +272,10 @@
                         <h5 class="card-title">Dio</h5>
                         <p class="card-text">₹ 66,096 /-</p>
                     </div>
-                </div>
+                </a>
             </div>
             <div class="col-6 col-lg-3">
-                <div class="card">
+                <a class="card cardlink" href="bikes/livo.html">
                     <div class="card-img-top">
                         <div class="card-img-tint">
                             <img class="card-img" src="images/Bikes/Livo/Colors/Imperial-Red-Metallic.png" alt="Card image cap">
@@ -286,7 +286,7 @@
                         <h5 class="card-title">LIVO</h5>
                         <p class="card-text">₹ 72,393 /-</p>
                     </div>
-                </div>
+                </a>
             </div>
         </div>
         <center>
